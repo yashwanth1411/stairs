@@ -16,9 +16,9 @@ def count_ways_to_climb_stairs(steps):
     return ways[steps]
 
 
-num_steps_1 = int(input)
-num_steps_2 = int(input())
-result_1 = count_ways_to_climb_stairs(num_steps_1) 
-result_2 = count_ways_to_climb_stairs(num_steps_2)  
+num_steps = int(input())
 
-print(result_1, result_2)
+result = count_ways_to_climb_stairs(num_steps) 
+  
+
+print(result)
